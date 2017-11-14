@@ -936,7 +936,7 @@ p {
     display: block;
   }
 }
-/*
+
 @media only screen and (max-width: 29.9375em) {
   body {
     -webkit-text-size-adjust: 100%;
@@ -1170,8 +1170,8 @@ p {
     min-width: 276px;
   }
 }
-*/
-@media screen /*and (min-width: 30em)*/ and (max-width: 37.4375em) {
+
+@media screen and (min-width: 30em) and (max-width: 37.4375em) {
   body {
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;

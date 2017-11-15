@@ -972,6 +972,22 @@ p {
   .footer-navigation {
     width: 19.78571em;
   }
+  .menu-item, .business {
+    width: 47.64151%;
+    float: left;
+    margin-right: 4.71698%;
+    display: inline;
+  }
+  .has-images .menu-item, .has-images .business {
+    margin-top: 2.5em;
+  }
+  .menu-item:nth-child(2n), .business:nth-child(2n) {
+    float: right;
+    margin-right: 0;
+  }
+  .menu-item:nth-child(2n+1), .business:nth-child(2n+1) {
+    clear: both;
+  }
   .profile-module {
     width: 100%;
     float: left;
@@ -1092,37 +1108,37 @@ p {
     margin-top: 1.42857em;
   }
   .menu-item-image:before {
-    display: none;
+    height: 132px;
   }
   .menu-item-image img {
-    display: none;
+    display: block;
   }
   .menu-item-info {
-    min-height: 21px;
+    min-height: 40px;
   }
-  .has-images .menu-item-info {
-    position: relative;
+  .has-images .menu-item:hover .menu-item-info.has-no-meta-content {
+    height: 43px;
   }
-  .has-images .menu-item:hover .menu-item-info {
-    height: auto;
+  .has-images .menu-item:hover .menu-item-info.has-no-meta-content {
+    overflow: hidden;
+  }
+  .menu-item-name {
+    white-space: nowrap;
   }
   .has-images .menu-item-name+.menu-item-description, .has-images .menu-item-name+.business-info-address, .has-images .menu-item-name+.business-bio {
-    height: auto;
+    height: 20px;
   }
   .has-images .menu-item-name+.menu-item-description, .has-images .menu-item-name+.business-info-address, .has-images .menu-item-name+.business-bio {
-    white-space: normal;
+    white-space: nowrap;
   }
-  .has-images .menu-item:hover .menu-item-name+.menu-item-description, .has-images .menu-item:hover .menu-item-name+.business-info-address, .has-images .menu-item:hover .menu-item-name+.business-bio {
-    height: auto;
+.has-images .menu-item:hover .menu-item-name+.menu-item-description, .has-images .menu-item:hover .menu-item-name+.business-info-address, .has-images .menu-item:hover .menu-item-name+.business-bio {
+    height: 132px;
   }
   .has-images .menu-item-description, .has-images .business-info-address, .has-images .business-bio {
-    height: auto;
+    height: 132px;
   }
-  .menu-item-price-range {
+  .has-images .menu-item-variations {
     display: none;
-  }
-  .has-images .menu-item:hover .menu-item-variations {
-    margin-top: 0.21429em;
   }
   .btn-view-full-menu {
     padding-top: 2.35714em;
